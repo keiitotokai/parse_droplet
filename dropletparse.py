@@ -28,17 +28,6 @@ class DropletParse():
         """
         plt.imshow(self.img, cmap='gray')
 
-    
-    def apply_rolling_ball(self):
-        # rolling ballメソッド作成
-        return None
-    
-    def apply_tophat(self):
-        # top-hat処理メソッド作成
-
-        return None
-
-
     def make_binary(self, algo='otsu', reverse=False, show=True):
         """
         読み込んだ画像の二値化を行い、その画像を表示・返す。
